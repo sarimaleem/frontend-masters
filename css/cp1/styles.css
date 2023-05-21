@@ -26,4 +26,65 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a { 
+    color: var(--magenta);
+    text-decoration: underline;
+}
+
+a:hover { 
+    color: var(--hotmag);
+    text-decoration: none;
+}
+
+/* Intro Styles */
+
+#intro {
+    padding-bottom: 10rem;
+} 
+
+#intro p {
+    padding-bottom: 1rem;
+    line-height: 1.5;
+} 
+
+#intro .name {
+    font-family: var(--mono);
+}
+
+.name span {
+    font-family: var(--sans);
+    font-size: 4rem;
+    color: var(--aqua);
+    display: block;
+}
+
+#intro h2 {
+    font-size: 4rem;
+}
+
+#footer {
+    background-color: var(--plum);
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+#footer .contact {
+    font-size: 2em;
+}
+
+#footer .description {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 1em;
 }
